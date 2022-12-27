@@ -1,0 +1,64 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+.main-container {
+    display: flex;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    width: 80%;
+    justify-content: center;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgba(172, 172, 172, 0.671);
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition-duration: 0.4s;
+}
+
+.btn-menu {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ffffff; /* Green */
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    border: 1px solid #008cff;
+    border-radius: 12px;
+}
+.btn-menu:hover {
+    background-color: #008cff91; /* Green */
+    color: white;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,0.24), 0 5px 20px 0 rgba(0,0,0,0.19);
+  }
