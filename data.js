@@ -7,7 +7,7 @@ export default [
       "titulo": "Desarrollador Fullstacks",
       "explicacion": `
         Mis tareas principales se enfocan en el desarrollo Backend, realizando microservicios API REST que proporcionen al Frontend los datos necesarios para su correcto funcionamiento.
-        Para el procesamiento de los datos, principalmente trabajo con bases de datos relacionales (MariaDB o PostgreSQL) o no relacionales (MongoDB) mediante el uso de Sequelize.
+        Para el procesamiento de los datos, principalmente trabajo con bases de datos relacionales (MariaDB o PostgreSQL) y no relacionales (MongoDB) mediante el uso de Sequelize.
         Por otro lado, he trabajado con otro métodos de procesamiento de datos como lectura de ficheros Excels y correos electrónicos (recepción/envios).
         Otro de mis cometidos ha sido la realización de pequeños desarollos Frontend con Vue, desde formularios simples a aplicaciones más complejas para el visionado de informes. Para realizar las comunicaciones con el servidor utilizo Axios.
         Por último, la ocupación a la que le dedico menos tiempo a día de hoy, es la automatización de procesos. Ahora más centrado en la automatización de aplicaciones web mediante el uso de Puppeter.

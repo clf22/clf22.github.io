@@ -2,6 +2,13 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+.main {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    /*justify-content: center*/
+}
+
 .img-perfil {
     /*border: 1px solid rgba(0,0,0,0.20);*/
     border-radius: 100%;
@@ -27,6 +34,7 @@ body {
 }
 
 .menu {
+    min-width: 300px;
     width: 200px;
     display: flex;
     align-items: center;
@@ -63,4 +71,9 @@ body {
     font-weight: bold;
     font-size: 17px;
     color: white;
+}
+
+.info{
+    background-color: white;
+    min-width: 600px;
 }
